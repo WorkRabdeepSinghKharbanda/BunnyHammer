@@ -58,13 +58,13 @@
 .bunny {
   position: absolute;
   z-index: 1;
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease;
   opacity: 0;
-  transform: translate(-44%,-50%);
+  transform: translate(-47%,-50%);
   top: 50%;
   left: 50%;
 }
 .bunny.active {
-  transform: translate(-44%,-100%);
+  transform: translate(-47%,-90%);
   opacity: 1;
 }
