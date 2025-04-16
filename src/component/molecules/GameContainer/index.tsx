@@ -117,12 +117,12 @@ const GameContainer = () => {
                       {Array.from({ length: 9 }).map((_, key) => (
                         <button
                           className={`btn btn-transparent`}
-                          style={{cursor: 'url("./public/hammer.png"),auto'}}
+                          style={{cursor: 'url("/hammer.png"),auto'}}
                           onClick={() => handleHammerClick(key + 1)}
                         >
                           <img
                             className={style.grass}
-                            src="./public/grass.png"
+                            src="/grass.png"
                             width={125}
                             height={80}
                           />
@@ -130,7 +130,7 @@ const GameContainer = () => {
                             className={`${style.bunny} ${
                               bunnyPlace == key + 1 && style.active
                             }`}
-                            src="./public/bunny.png"
+                            src="/bunny.png"
                             width={125}
                             height={80}
                           />
