@@ -64,7 +64,7 @@ const GameContainer = () => {
 
         setTimeLeft(currentTimeLeft);
         currentTimeLeft -= 1;
-      }, 500);
+      }, 1000);
 
       setTimeout(() => {
         setBunnyPlace(0);
