@@ -107,10 +107,13 @@ const GameContainer = () => {
                 <button className={style['reset-btn']} onClick={handleResetClick}>Reset Game</button>
                 {timeLeft !== 0 && (
                   <>
+                    <div className="d-flex flex-wrap gap-3">
                     <p className={style.stats}>Hits: {hitScore}</p>
                     <p className={style.stats}>Missed: {missedScore}</p>
                     <p className={style.stats}>Total : {totalHits}</p>
                     <p className={style.stats}>Timer: {timeLeft}</p>
+                      
+                    </div>
                     <div
                       className={`${style["grass-layers"]} w-100 mt-5 gap-5`}
                     >
